@@ -1,0 +1,498 @@
+h1{
+    margin:  0px;
+    padding: 0px;
+    color: #fff;
+
+    font-weight: 100;
+    font-size: 50px;
+}
+
+
+
+ul{
+
+
+}
+
+.logo{
+
+    height: 15vh;
+
+
+
+}
+
+
+
+ul.dropdown li{
+    font-weight: bold;
+    float: left;
+    width: 1px;
+    position: relative;
+    background: #ecf0f1;
+}
+
+ul.dropdown a:hover{
+    color: #000;
+}
+
+ul.dropdown li a {
+
+    padding: 20px 8px;
+    color: #34495e;
+
+
+
+    text-decoration: none;
+    font-weight: 300;
+}
+
+ul.dropdown li a:hover,
+ul.dropdown li a.hover{
+    background: #3498db;
+    position: relative;
+    color: #fff;
+}
+
+
+
+
+ul.dropdown ul li {
+    font-weight: normal;
+    background: #f6f6f6;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.dropdown ul li a{
+
+    color: #34495e !important;
+    background: #eee !important;
+}
+
+ul.dropdown ul li a:hover{
+
+    background: #3498db !important;
+    color: #fff !important;
+}
+
+.drop > a{
+
+}
+
+.drop > a:after{
+    content:"";
+
+
+
+    border-left: 5px solid transparent;
+    border-top: 5px solid #333;
+    border-right: 5px solid transparent;
+
+}
+
+.drop > a:hover:after{
+    content:"";
+    border-left: 5px solid transparent;
+    border-top: 5px solid #fff;
+    border-right: 5px solid transparent;
+}
+
+/*<div>
+
+
+<nav>
+<img class="logo" src="2%20(1).png" width="150" height="46" />
+<ul class="dropdown">
+<li class="drop"><a href="">Back to Post</a></li>
+<li><a href="">Top-Nav</a></li>
+<li><a href="">Priority</a></li>
+<li><a href="">Select&nbsp;Menu</a></li>
+<li><a href="">Select&nbsp;Menu&nbsp;JS</a></li>
+</ul>
+</nav>
+
+</div> */
+
+header{
+    display: flex;
+
+
+    align-items: center;
+    padding: 7px 50px;
+}
+
+
+
+.footer-section {
+    background: #f68d00;
+
+}
+
+
+
+.address {
+    padding: 10px;
+
+}
+
+.right-text {
+    padding-left: 28px;
+}
+
+.right-text h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.right-text p {
+    margin: 0px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f7bb07;
+    font-size: 20px;
+    margin-bottom: 23px;
+    font-weight: 700;
+
+}
+/* .footer-title span::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 117px;
+    height: 2px;
+    background-color: #f7bb07;
+} */
+
+.footer-title-text {
+    background: #166a84;
+
+}
+
+.footer-title-underline {
+    height: 1px;
+    background-color: #f68d00;
+
+
+}
+
+.quick-link-list {
+    list-style-type: none;
+
+}
+
+.quick-link-list li a {
+    color: #fff;
+
+    display: block;
+}
+
+.footer-section-bottom {
+    background: #f68d00;
+    padding: 17px 0px;
+}
+
+.footer-bottom-left p {
+    margin: 0px;
+    color: #fff;
+}
+
+.footer-bottom-right p {
+    margin: 0px;
+    color: #fff;
+    text-align: right;
+}
+
+.footer-bottom-right p a {
+    color: #dcd735;
+}
+
+.title-transparent {
+    opacity: 0 !important;
+}
+
+#social {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.smGlobalBtn {
+    /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ddd;
+    /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+}
+/* facebook button class*/
+
+.facebookBtn {
+    background: #4060A5;
+}
+
+.facebookBtn:before {
+    /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a";
+    /* add facebook icon */
+}
+
+.facebookBtn:hover {
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5;
+    /* change the border color on mouse hover */
+}
+/* twitter button class*/
+
+.twitterBtn {
+    background: #00ABE3;
+}
+
+.twitterBtn:before {
+    font-family: "FontAwesome";
+    content: "\f099";
+    /* add twitter icon */
+}
+
+.twitterBtn:hover {
+    color: #00ABE3;
+    background: #fff;
+    border-color: #00ABE3;
+}
+/* google plus button class*/
+
+.googleplusBtn {
+    background: #e64522;
+}
+
+.googleplusBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0d5";
+    /* add googleplus icon */
+}
+
+.googleplusBtn:hover {
+    color: #e64522;
+    background: #fff;
+    border-color: #e64522;
+}
+/* linkedin button class*/
+
+.linkedinBtn {
+    background: #0094BC;
+}
+
+.linkedinBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0e1";
+    /* add linkedin icon */
+}
+
+.linkedinBtn:hover {
+    color: #0094BC;
+    background: #fff;
+    border-color: #0094BC;
+}
+/* youtube button class */
+
+.youtubeBtn {
+    background: #bf1d23;
+}
+
+.youtubeBtn:before {
+    font-family: "FontAwesome";
+    content: "\f167";
+    /* add linkedin icon */
+}
+
+.youtubeBtn:hover {
+    color: #bf1d23;
+    background: #fff;
+    border-color: #bf1d23;
+}
+/* youtube button class */
+/* pinterest button class*/
+
+.pinterestBtn {
+    background: #cb2027;
+}
+
+.pinterestBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0d2";
+    /* add pinterest icon */
+}
+
+.pinterestBtn:hover {
+    color: #cb2027;
+    background: #fff;
+    border-color: #cb2027;
+}
+/* tumblr button class*/
+
+.tumblrBtn {
+    background: #3a5876;
+}
+
+.tumblrBtn:before {
+    font-family: "FontAwesome";
+    content: "\f173";
+    /* add tumblr icon */
+}
+
+.tumblrBtn:hover {
+    color: #3a5876;
+    background: #fff;
+    border-color: #3a5876;
+}
+/* rss button class*/
+
+.rssBtn {
+    background: #e88845;
+}
+
+.rssBtn:before {
+    font-family: "FontAwesome";
+    content: "\f09e";
+    /* add rss icon */
+}
+
+.rssBtn:hover {
+    color: #e88845;
+    background: #fff;
+    border-color: #e88845;
+}
+
+.form-control-new {
+    border-radius: 0px;
+    position: relative;
+}
+
+.form-control-new:before {
+    content: "/f0e0";
+    font-family: FontAwesome;
+
+}
+
+.newsletter {
+    color: #fff;
+}
+
+.subscribe {
+    width: 100%;
+    border-radius: 0px;
+    background: #24829f;
+    border: 1px solid #6ac5e1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.col-md-3{
+    width: 10%;
+}
+
+.col-md-2{
+    width: 10%;
+}
+.row>*{
+    width: 10%;
+}
+
+
+nav{
+    position : relative;
+    width : 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a{ color: #000000;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px; font-weight: bold;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background-color: #ff4; color:#242424;
+}
+.toggle{
+    width: 100%;
+    background:	#242424;
+    padding: 20px;
+    text-align: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; display: none;
+}
+.toggle span{
+    background: #ff4;
+    color: #242424;
+    padding: 10px;
+    cursor: pointer;
+}
+@media (max-width: 767px){
+    .toggle {
+        display: block;
+    }
+    nav ul {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        display: none;
+    }
+    nav ul.active{
+        display: block;
+    }
+}
+
