@@ -7,17 +7,41 @@ h1{
     font-size: 50px;
 }
 
-
-
 ul{
 
 
 }
 
+
+html,
+body {
+    
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+    
+}
+.content {
+	flex: 1 0 auto;
+
+    padding:  0px 40px 0px 40px ;
+    margin: 0px 40px 0px 40px;
+    
+}
+.footer {
+    
+	flex: 0 0 auto;
+}
+
+
+
 .logo{
-
-    height: 15vh;
-
+    margin-top: 20px;
+    height: 125px;
+    
 
 
 }
@@ -80,27 +104,11 @@ ul.dropdown ul li a:hover{
 
 }
 
-.drop > a:after{
-    content:"";
 
 
 
-    border-left: 5px solid transparent;
-    border-top: 5px solid #333;
-    border-right: 5px solid transparent;
-
-}
-
-.drop > a:hover:after{
-    content:"";
-    border-left: 5px solid transparent;
-    border-top: 5px solid #fff;
-    border-right: 5px solid transparent;
-}
 
 /*<div>
-
-
 <nav>
 <img class="logo" src="2%20(1).png" width="150" height="46" />
 <ul class="dropdown">
@@ -111,7 +119,6 @@ ul.dropdown ul li a:hover{
 <li><a href="">Select&nbsp;Menu&nbsp;JS</a></li>
 </ul>
 </nav>
-
 </div> */
 
 header{
@@ -186,20 +193,35 @@ header{
 
 }
 
+.underline-one{
+	color: #000000; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-one:hover {
+    text-decoration: underline;
+}
+
+
+     
+
 .quick-link-list {
     list-style-type: none;
+    text-decoration: none;
+    
+    
+
 
 }
 
-.quick-link-list li a {
-    color: #fff;
+    
 
-    display: block;
-}
 
 .footer-section-bottom {
     background: #f68d00;
     padding: 17px 0px;
+    
 }
 
 .footer-bottom-left p {
@@ -217,206 +239,15 @@ header{
     color: #dcd735;
 }
 
-.title-transparent {
-    opacity: 0 !important;
-}
 
-#social {
-    margin: 20px 10px;
-    text-align: center;
-}
 
-.smGlobalBtn {
-    /* global button class */
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #ddd;
-    /* add border to the buttons */
-    box-shadow: 0 3px 3px #999;
-    padding: 0px;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    font-size: 22px;
-    font-weight: normal;
-    line-height: 2em;
-    border-radius: 27px;
-    -moz-border-radius: 27px;
-    -webkit-border-radius: 27px;
-}
-/* facebook button class*/
-
-.facebookBtn {
-    background: #4060A5;
-}
-
-.facebookBtn:before {
-    /* use :before to add the relevant icons */
-    font-family: "FontAwesome";
-    content: "\f09a";
-    /* add facebook icon */
-}
-
-.facebookBtn:hover {
-    color: #4060A5;
-    background: #fff;
-    border-color: #4060A5;
-    /* change the border color on mouse hover */
-}
-/* twitter button class*/
-
-.twitterBtn {
-    background: #00ABE3;
-}
-
-.twitterBtn:before {
-    font-family: "FontAwesome";
-    content: "\f099";
-    /* add twitter icon */
-}
-
-.twitterBtn:hover {
-    color: #00ABE3;
-    background: #fff;
-    border-color: #00ABE3;
-}
-/* google plus button class*/
-
-.googleplusBtn {
-    background: #e64522;
-}
-
-.googleplusBtn:before {
-    font-family: "FontAwesome";
-    content: "\f0d5";
-    /* add googleplus icon */
-}
-
-.googleplusBtn:hover {
-    color: #e64522;
-    background: #fff;
-    border-color: #e64522;
-}
-/* linkedin button class*/
-
-.linkedinBtn {
-    background: #0094BC;
-}
-
-.linkedinBtn:before {
-    font-family: "FontAwesome";
-    content: "\f0e1";
-    /* add linkedin icon */
-}
-
-.linkedinBtn:hover {
-    color: #0094BC;
-    background: #fff;
-    border-color: #0094BC;
-}
-/* youtube button class */
-
-.youtubeBtn {
-    background: #bf1d23;
-}
-
-.youtubeBtn:before {
-    font-family: "FontAwesome";
-    content: "\f167";
-    /* add linkedin icon */
-}
-
-.youtubeBtn:hover {
-    color: #bf1d23;
-    background: #fff;
-    border-color: #bf1d23;
-}
-/* youtube button class */
-/* pinterest button class*/
-
-.pinterestBtn {
-    background: #cb2027;
-}
-
-.pinterestBtn:before {
-    font-family: "FontAwesome";
-    content: "\f0d2";
-    /* add pinterest icon */
-}
-
-.pinterestBtn:hover {
-    color: #cb2027;
-    background: #fff;
-    border-color: #cb2027;
-}
-/* tumblr button class*/
-
-.tumblrBtn {
-    background: #3a5876;
-}
-
-.tumblrBtn:before {
-    font-family: "FontAwesome";
-    content: "\f173";
-    /* add tumblr icon */
-}
-
-.tumblrBtn:hover {
-    color: #3a5876;
-    background: #fff;
-    border-color: #3a5876;
-}
-/* rss button class*/
-
-.rssBtn {
-    background: #e88845;
-}
-
-.rssBtn:before {
-    font-family: "FontAwesome";
-    content: "\f09e";
-    /* add rss icon */
-}
-
-.rssBtn:hover {
-    color: #e88845;
-    background: #fff;
-    border-color: #e88845;
-}
-
-.form-control-new {
-    border-radius: 0px;
-    position: relative;
-}
-
-.form-control-new:before {
-    content: "/f0e0";
-    font-family: FontAwesome;
-
-}
-
-.newsletter {
-    color: #fff;
-}
-
-.subscribe {
-    width: 100%;
-    border-radius: 0px;
-    background: #24829f;
-    border: 1px solid #6ac5e1;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 600;
-}
 
 .row{
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
+    align-items: center;
 
 }
 
@@ -427,9 +258,7 @@ header{
 .col-md-2{
     width: 10%;
 }
-.row>*{
-    width: 10%;
-}
+
 
 
 nav{
@@ -479,20 +308,9 @@ nav ul li a:hover{
     padding: 10px;
     cursor: pointer;
 }
-@media (max-width: 767px){
-    .toggle {
-        display: block;
-    }
-    nav ul {
-        -webkit-flex-direction: column;
-        -moz-flex-direction: column;
-        -ms-flex-direction: column;
-        -o-flex-direction: column;
-        flex-direction: column;
-        display: none;
-    }
-    nav ul.active{
-        display: block;
-    }
-}
+
+
+
+
+
 
